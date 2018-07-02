@@ -1,4 +1,4 @@
 # Aaron Liszt
 # Kent State University
 # Projects Completed for Course
-# CS-II-Data-Structures | Spring 2016
+# CS II Data Structures | Spring 2016

@@ -1,0 +1,1034 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 46.40      1.09     1.09 10382507     0.00     0.00  String::length() const
+ 31.50      1.83     0.74   838959     0.00     0.00  String::String(String const&)
+ 10.64      2.08     0.25  2644560     0.00     0.00  String::String(int, char const*)
+  2.98      2.15     0.07    69951     0.00     0.00  String::split(char) const
+  2.55      2.21     0.06  2644560     0.00     0.00  String::operator+(String const&) const
+  1.28      2.24     0.03  2874438     0.00     0.00  String::String(char)
+  1.28      2.27     0.03   339788     0.00     0.00  String* std::__uninitialized_copy<false>::__uninit_copy<String*, String*>(String*, String*, String*)
+  0.85      2.29     0.02  6727848     0.00     0.00  String::~String()
+  0.43      2.30     0.01  2934500     0.00     0.00  String::operator=(String)
+  0.43      2.31     0.01   269846     0.00     0.00  operator!=(String const&, String const&)
+  0.43      2.32     0.01   229938     0.00     0.00  String::String(char const*)
+  0.43      2.33     0.01    69951     0.00     0.00  String::findchar(char const&) const
+  0.43      2.34     0.01    46382     0.00     0.00  Date::~Date()
+  0.43      2.35     0.01        1     0.01     2.35  parse(std::istream&)
+  0.00      2.35     0.00  2934500     0.00     0.00  String::swap(String&)
+  0.00      2.35     0.00   719622     0.00     0.00  String* std::__addressof<String>(String&)
+  0.00      2.35     0.00   689575     0.00     0.00  std::vector<String, std::allocator<String> >::size() const
+  0.00      2.35     0.00   679576     0.00     0.00  __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::base() const
+  0.00      2.35     0.00   579635     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator()
+  0.00      2.35     0.00   509683     0.00     0.00  __gnu_cxx::new_allocator<String>::max_size() const
+  0.00      2.35     0.00   506128     0.00     0.00  operator new(unsigned long, void*)
+  0.00      2.35     0.00   479746     0.00     0.00  void std::_Destroy<String>(String*)
+  0.00      2.35     0.00   339788     0.00     0.00  __gnu_cxx::__alloc_traits<std::allocator<String> >::max_size(std::allocator<String> const&)
+  0.00      2.35     0.00   339788     0.00     0.00  __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::__normal_iterator(String* const&)
+  0.00      2.35     0.00   339788     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() const
+  0.00      2.35     0.00   339788     0.00     0.00  std::vector<String, std::allocator<String> >::max_size() const
+  0.00      2.35     0.00   339788     0.00     0.00  String* std::uninitialized_copy<String*, String*>(String*, String*, String*)
+  0.00      2.35     0.00   339788     0.00     0.00  String* std::__uninitialized_copy_a<String*, String*, String>(String*, String*, String*, std::allocator<String>&)
+  0.00      2.35     0.00   339788     0.00     0.00  String* std::__uninitialized_move_if_noexcept_a<String*, String*, std::allocator<String> >(String*, String*, String*, std::allocator<String>&)
+  0.00      2.35     0.00   279840     0.00     0.00  String::operator==(String const&) const
+  0.00      2.35     0.00   239876     0.00     0.00  void std::_Construct<String, String>(String*, String const&)
+  0.00      2.35     0.00   239870     0.00     0.00  __gnu_cxx::new_allocator<String>::construct(String*, String const&)
+  0.00      2.35     0.00   239870     0.00     0.00  void __gnu_cxx::__alloc_traits<std::allocator<String> >::construct<String>(std::allocator<String>&, String*, String const&)
+  0.00      2.35     0.00   239870     0.00     0.00  std::vector<String, std::allocator<String> >::push_back(String const&)
+  0.00      2.35     0.00   239846     0.00     0.00  void std::_Destroy_aux<false>::__destroy<String*>(String*, String*)
+  0.00      2.35     0.00   239846     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_M_deallocate(String*, unsigned long)
+  0.00      2.35     0.00   239846     0.00     0.00  void std::_Destroy<String*>(String*, String*)
+  0.00      2.35     0.00   239846     0.00     0.00  void std::_Destroy<String*, String>(String*, String*, std::allocator<String>&)
+  0.00      2.35     0.00   234671     0.00     0.00  std::vector<String, std::allocator<String> >::operator[](unsigned long)
+  0.00      2.35     0.00   169909     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      2.35     0.00   169895     0.00     0.00  __gnu_cxx::new_allocator<String>::deallocate(String*, unsigned long)
+  0.00      2.35     0.00   169895     0.00     0.00  __gnu_cxx::new_allocator<String>::allocate(unsigned long, void const*)
+  0.00      2.35     0.00   169895     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_M_allocate(unsigned long)
+  0.00      2.35     0.00   169894     0.00     0.00  __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::difference_type __gnu_cxx::operator-<String*, std::vector<String, std::allocator<String> > >(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&, __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&)
+  0.00      2.35     0.00   169894     0.00     0.00  std::vector<String, std::allocator<String> >::_M_check_len(unsigned long, char const*) const
+  0.00      2.35     0.00   169894     0.00     0.00  std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&)
+  0.00      2.35     0.00   169894     0.00     0.00  std::vector<String, std::allocator<String> >::end()
+  0.00      2.35     0.00   169894     0.00     0.00  std::vector<String, std::allocator<String> >::begin()
+  0.00      2.35     0.00   139953     0.00     0.00  String::String()
+  0.00      2.35     0.00   128610     0.00     0.00  String::operator[](int)
+  0.00      2.35     0.00    69953     0.00     0.00  __gnu_cxx::new_allocator<String>::~new_allocator()
+  0.00      2.35     0.00    69953     0.00     0.00  std::allocator<String>::~allocator()
+  0.00      2.35     0.00    69952     0.00     0.00  __gnu_cxx::new_allocator<String>::new_allocator()
+  0.00      2.35     0.00    69952     0.00     0.00  std::allocator<String>::allocator()
+  0.00      2.35     0.00    69952     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_Vector_impl::~_Vector_impl()
+  0.00      2.35     0.00    69952     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::~_Vector_base()
+  0.00      2.35     0.00    69952     0.00     0.00  std::vector<String, std::allocator<String> >::~vector()
+  0.00      2.35     0.00    69951     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl()
+  0.00      2.35     0.00    69951     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_Vector_base()
+  0.00      2.35     0.00    69951     0.00     0.00  std::vector<String, std::allocator<String> >::vector()
+  0.00      2.35     0.00    47389     0.00     0.00  stoi(String, int)
+  0.00      2.35     0.00    42765     0.00     0.00  LogEntry* std::__addressof<LogEntry>(LogEntry&)
+  0.00      2.35     0.00    36382     0.00     0.00  LogEntry::~LogEntry()
+  0.00      2.35     0.00    26382     0.00     0.00  Date::Date(Date const&)
+  0.00      2.35     0.00    26382     0.00     0.00  LogEntry::LogEntry(LogEntry const&)
+  0.00      2.35     0.00    26382     0.00     0.00  void std::_Destroy<LogEntry>(LogEntry*)
+  0.00      2.35     0.00    20001     0.00     0.00  String::capacity() const
+  0.00      2.35     0.00    19999     0.00     0.00  Date::operator=(Date const&)
+  0.00      2.35     0.00    16383     0.00     0.00  void std::_Construct<LogEntry, LogEntry>(LogEntry*, LogEntry const&)
+  0.00      2.35     0.00    10060     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::size() const
+  0.00      2.35     0.00    10008     0.00     0.00  Date::Date()
+  0.00      2.35     0.00    10008     0.00     0.00  Time::Time()
+  0.00      2.35     0.00     9999     0.00     0.00  LogEntry::LogEntry(String)
+  0.00      2.35     0.00     9999     0.00     0.00  LogEntry::operator=(LogEntry const&)
+  0.00      2.35     0.00     9999     0.00     0.00  __gnu_cxx::new_allocator<LogEntry>::construct(LogEntry*, LogEntry const&)
+  0.00      2.35     0.00     9999     0.00     0.00  void __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::construct<LogEntry>(std::allocator<LogEntry>&, LogEntry*, LogEntry const&)
+  0.00      2.35     0.00     9999     0.00     0.00  LogEntry::getBytes() const
+  0.00      2.35     0.00     9999     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::operator[](unsigned long) const
+  0.00      2.35     0.00     9999     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::push_back(LogEntry const&)
+  0.00      2.35     0.00     9992     0.00     0.00  Date::Date(String)
+  0.00      2.35     0.00     9992     0.00     0.00  Time::Time(String)
+  0.00      2.35     0.00       60     0.00     0.00  __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::base() const
+  0.00      2.35     0.00       46     0.00     0.00  std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator()
+  0.00      2.35     0.00       45     0.00     0.00  __gnu_cxx::new_allocator<LogEntry>::max_size() const
+  0.00      2.35     0.00       30     0.00     0.00  __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::max_size(std::allocator<LogEntry> const&)
+  0.00      2.35     0.00       30     0.00     0.00  __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::__normal_iterator(LogEntry* const&)
+  0.00      2.35     0.00       30     0.00     0.00  std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator() const
+  0.00      2.35     0.00       30     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::max_size() const
+  0.00      2.35     0.00       30     0.00     0.00  LogEntry* std::__uninitialized_copy<false>::__uninit_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*)
+  0.00      2.35     0.00       30     0.00     0.00  LogEntry* std::uninitialized_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*)
+  0.00      2.35     0.00       30     0.00     0.00  LogEntry* std::__uninitialized_copy_a<LogEntry*, LogEntry*, LogEntry>(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&)
+  0.00      2.35     0.00       30     0.00     0.00  LogEntry* std::__uninitialized_move_if_noexcept_a<LogEntry*, LogEntry*, std::allocator<LogEntry> >(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&)
+  0.00      2.35     0.00       16     0.00     0.00  void std::_Destroy_aux<false>::__destroy<LogEntry*>(LogEntry*, LogEntry*)
+  0.00      2.35     0.00       16     0.00     0.00  std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_deallocate(LogEntry*, unsigned long)
+  0.00      2.35     0.00       16     0.00     0.00  void std::_Destroy<LogEntry*>(LogEntry*, LogEntry*)
+  0.00      2.35     0.00       16     0.00     0.00  void std::_Destroy<LogEntry*, LogEntry>(LogEntry*, LogEntry*, std::allocator<LogEntry>&)
+  0.00      2.35     0.00       15     0.00     0.00  __gnu_cxx::new_allocator<LogEntry>::deallocate(LogEntry*, unsigned long)
+  0.00      2.35     0.00       15     0.00     0.00  __gnu_cxx::new_allocator<LogEntry>::allocate(unsigned long, void const*)
+  0.00      2.35     0.00       15     0.00     0.00  __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::difference_type __gnu_cxx::operator-<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&, __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&)
+  0.00      2.35     0.00       15     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::_M_check_len(unsigned long, char const*) const
+  0.00      2.35     0.00       15     0.00     0.00  std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_allocate(unsigned long)
+  0.00      2.35     0.00       15     0.00     0.01  std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&)
+  0.00      2.35     0.00       15     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::end()
+  0.00      2.35     0.00       15     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::begin()
+  0.00      2.35     0.00        1     0.00     0.00  _GLOBAL__sub_I__Z4stoi6Stringi
+  0.00      2.35     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN6StringC2Ev
+  0.00      2.35     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      2.35     0.00        1     0.00     0.00  byte_count(std::vector<LogEntry, std::allocator<LogEntry> > const&)
+  0.00      2.35     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.35     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.35     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.35     0.00        1     0.00     0.00  LogEntry::LogEntry()
+  0.00      2.35     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<String>::new_allocator(__gnu_cxx::new_allocator<String> const&)
+  0.00      2.35     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<LogEntry>::new_allocator()
+  0.00      2.35     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<LogEntry>::~new_allocator()
+  0.00      2.35     0.00        1     0.00     0.00  std::allocator<String>::allocator(std::allocator<String> const&)
+  0.00      2.35     0.00        1     0.00     0.00  std::allocator<LogEntry>::allocator()
+  0.00      2.35     0.00        1     0.00     0.00  std::allocator<LogEntry>::~allocator()
+  0.00      2.35     0.00        1     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl(std::allocator<String> const&)
+  0.00      2.35     0.00        1     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_M_create_storage(unsigned long)
+  0.00      2.35     0.00        1     0.00     0.00  std::_Vector_base<String, std::allocator<String> >::_Vector_base(unsigned long, std::allocator<String> const&)
+  0.00      2.35     0.00        1     0.00     0.00  std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::_Vector_impl()
+  0.00      2.35     0.00        1     0.00     0.00  std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::~_Vector_impl()
+  0.00      2.35     0.00        1     0.00     0.00  std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_base()
+  0.00      2.35     0.00        1     0.00     0.00  std::_Vector_base<LogEntry, std::allocator<LogEntry> >::~_Vector_base()
+  0.00      2.35     0.00        1     0.00     0.00  void std::__uninitialized_fill_n<false>::__uninit_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&)
+  0.00      2.35     0.00        1     0.00     0.00  std::vector<String, std::allocator<String> >::_M_fill_initialize(unsigned long, String const&)
+  0.00      2.35     0.00        1     0.00     0.00  std::vector<String, std::allocator<String> >::vector(unsigned long, String const&, std::allocator<String> const&)
+  0.00      2.35     0.00        1     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::vector()
+  0.00      2.35     0.00        1     0.00     0.00  std::vector<LogEntry, std::allocator<LogEntry> >::~vector()
+  0.00      2.35     0.00        1     0.00     0.00  void std::uninitialized_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&)
+  0.00      2.35     0.00        1     0.00     0.00  void std::__uninitialized_fill_n_a<String*, unsigned long, String, String>(String*, unsigned long, String const&, std::allocator<String>&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.43% of 2.35 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    2.35                 main [1]
+                0.01    2.34       1/1           parse(std::istream&) [2]
+                0.00    0.00       1/1           std::vector<LogEntry, std::allocator<LogEntry> >::~vector() [51]
+                0.00    0.00       1/1           std::vector<String, std::allocator<String> >::vector(unsigned long, String const&, std::allocator<String> const&) [54]
+                0.00    0.00       4/229938      String::String(char const*) [39]
+                0.00    0.00       5/6727848     String::~String() [35]
+                0.00    0.00       3/2934500     String::operator=(String) [37]
+                0.00    0.00       1/69952       std::vector<String, std::allocator<String> >::~vector() [50]
+                0.00    0.00       5/234671      std::vector<String, std::allocator<String> >::operator[](unsigned long) [77]
+                0.00    0.00       2/279840      String::operator==(String const&) const [75]
+                0.00    0.00       1/69952       std::allocator<String>::allocator() [91]
+                0.00    0.00       1/139953      String::String() [86]
+                0.00    0.00       1/69953       std::allocator<String>::~allocator() [89]
+                0.00    0.00       1/1           byte_count(std::vector<LogEntry, std::allocator<LogEntry> > const&) [122]
+-----------------------------------------------
+                0.01    2.34       1/1           main [1]
+[2]    100.0    0.01    2.34       1         parse(std::istream&) [2]
+                0.00    1.71    9999/9999        LogEntry::LogEntry(String) [3]
+                0.02    0.41 1007483/2644560     String::operator+(String const&) const [5]
+                0.00    0.12    9999/9999        std::vector<LogEntry, std::allocator<LogEntry> >::push_back(LogEntry const&) [20]
+                0.00    0.04    9999/9999        LogEntry::operator=(LogEntry const&) [30]
+                0.01    0.00 1007483/2874438     String::String(char) [34]
+                0.01    0.00    9999/838959      String::String(String const&) [7]
+                0.01    0.00 2034965/6727848     String::~String() [35]
+                0.00    0.00 1017482/2934500     String::operator=(String) [37]
+                0.00    0.00   10000/36382       LogEntry::~LogEntry() [40]
+                0.00    0.00    9999/229938      String::String(char const*) [39]
+                0.00    0.00       1/1           LogEntry::LogEntry() [57]
+                0.00    0.00       1/1           std::vector<LogEntry, std::allocator<LogEntry> >::vector() [139]
+                0.00    0.00       1/139953      String::String() [86]
+-----------------------------------------------
+                0.00    1.71    9999/9999        parse(std::istream&) [2]
+[3]     72.6    0.00    1.71    9999         LogEntry::LogEntry(String) [3]
+                0.00    0.70    9992/9992        Date::Date(String) [8]
+                0.03    0.62   29983/69951       String::split(char) const [4]
+                0.00    0.25    9992/9992        Time::Time(String) [12]
+                0.06    0.00   67373/838959      String::String(String const&) [7]
+                0.00    0.02   49960/2644560     String::operator+(String const&) const [5]
+                0.00    0.02    9999/19999       Date::operator=(Date const&) [33]
+                0.00    0.00    9999/46382       Date::~Date() [36]
+                0.00    0.00   10006/10008       Date::Date() [49]
+                0.00    0.00   20005/229938      String::String(char const*) [39]
+                0.00    0.00    7421/10382507     String::length() const [6]
+                0.00    0.00  147330/6727848     String::~String() [35]
+                0.00    0.00   29983/69952       std::vector<String, std::allocator<String> >::~vector() [50]
+                0.00    0.00   39989/2934500     String::operator=(String) [37]
+                0.00    0.00    9992/2874438     String::String(char) [34]
+                0.00    0.00  114762/234671      std::vector<String, std::allocator<String> >::operator[](unsigned long) [77]
+                0.00    0.00   29997/139953      String::String() [86]
+                0.00    0.00   10006/10008       Time::Time() [101]
+                0.00    0.00    9999/689575      std::vector<String, std::allocator<String> >::size() const [66]
+                0.00    0.00    9992/279840      String::operator==(String const&) const [75]
+                0.00    0.00    7421/47389       stoi(String, int) [97]
+-----------------------------------------------
+                0.01    0.21    9992/69951       Time::Time(String) [12]
+                0.03    0.62   29976/69951       Date::Date(String) [8]
+                0.03    0.62   29983/69951       LogEntry::LogEntry(String) [3]
+[4]     65.0    0.07    1.46   69951         String::split(char) const [4]
+                0.04    0.65 1587117/2644560     String::operator+(String const&) const [5]
+                0.00    0.45  239870/239870      std::vector<String, std::allocator<String> >::push_back(String const&) [9]
+                0.20    0.00 1856963/10382507     String::length() const [6]
+                0.01    0.06   69951/69951       String::findchar(char const&) const [28]
+                0.02    0.00 1856963/2874438     String::String(char) [34]
+                0.01    0.00 3693942/6727848     String::~String() [35]
+                0.01    0.00  269846/269846      operator!=(String const&, String const&) [38]
+                0.01    0.00  179911/229938      String::String(char const*) [39]
+                0.01    0.00 1767028/2934500     String::operator=(String) [37]
+                0.00    0.00   69951/69951       std::vector<String, std::allocator<String> >::vector() [96]
+                0.00    0.00   69951/139953      String::String() [86]
+-----------------------------------------------
+                0.00    0.02   49960/2644560     LogEntry::LogEntry(String) [3]
+                0.02    0.41 1007483/2644560     parse(std::istream&) [2]
+                0.04    0.65 1587117/2644560     String::split(char) const [4]
+[5]     48.6    0.06    1.08 2644560         String::operator+(String const&) const [5]
+                0.83    0.00 7933756/10382507     String::length() const [6]
+                0.25    0.00 2644560/2644560     String::String(int, char const*) [11]
+-----------------------------------------------
+                0.00    0.00    7421/10382507     LogEntry::LogEntry(String) [3]
+                0.00    0.00    9992/10382507     Date::Date(String) [8]
+                0.00    0.00   29976/10382507     Time::Time(String) [12]
+                0.06    0.00  544399/10382507     String::findchar(char const&) const [28]
+                0.20    0.00 1856963/10382507     String::split(char) const [4]
+                0.83    0.00 7933756/10382507     String::operator+(String const&) const [5]
+[6]     46.4    1.09    0.00 10382507         String::length() const [6]
+-----------------------------------------------
+                0.01    0.00    9999/838959      parse(std::istream&) [2]
+                0.03    0.00   29976/838959      Time::Time(String) [12]
+                0.03    0.00   29997/838959      LogEntry::operator=(LogEntry const&) [30]
+                0.04    0.00   39998/838959      Date::operator=(Date const&) [33]
+                0.04    0.00   49960/838959      Date::Date(String) [8]
+                0.05    0.00   52764/838959      Date::Date(Date const&) [29]
+                0.06    0.00   67373/838959      LogEntry::LogEntry(String) [3]
+                0.07    0.00   79146/838959      LogEntry::LogEntry(LogEntry const&) [21]
+                0.21    0.00  239870/838959      __gnu_cxx::new_allocator<String>::construct(String*, String const&) [18]
+                0.21    0.00  239876/838959      void std::_Construct<String, String>(String*, String const&) [17]
+[7]     31.5    0.74    0.00  838959         String::String(String const&) [7]
+-----------------------------------------------
+                0.00    0.70    9992/9992        LogEntry::LogEntry(String) [3]
+[8]     29.8    0.00    0.70    9992         Date::Date(String) [8]
+                0.03    0.62   29976/69951       String::split(char) const [4]
+                0.04    0.00   49960/838959      String::String(String const&) [7]
+                0.00    0.00    9992/10382507     String::length() const [6]
+                0.00    0.00   29976/69952       std::vector<String, std::allocator<String> >::~vector() [50]
+                0.00    0.00   49960/6727848     String::~String() [35]
+                0.00    0.00   19984/2934500     String::operator=(String) [37]
+                0.00    0.00   59952/234671      std::vector<String, std::allocator<String> >::operator[](unsigned long) [77]
+                0.00    0.00   19984/139953      String::String() [86]
+                0.00    0.00    9992/47389       stoi(String, int) [97]
+-----------------------------------------------
+                0.00    0.45  239870/239870      String::split(char) const [4]
+[9]     19.3    0.00    0.45  239870         std::vector<String, std::allocator<String> >::push_back(String const&) [9]
+                0.00    0.39  169894/169894      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+                0.00    0.06   69976/239870      void __gnu_cxx::__alloc_traits<std::allocator<String> >::construct<String>(std::allocator<String>&, String*, String const&) [19]
+                0.00    0.00  169894/169894      std::vector<String, std::allocator<String> >::end() [84]
+-----------------------------------------------
+                0.00    0.39  169894/169894      std::vector<String, std::allocator<String> >::push_back(String const&) [9]
+[10]    16.7    0.00    0.39  169894         std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+                0.00    0.24  339788/339788      String* std::__uninitialized_move_if_noexcept_a<String*, String*, std::allocator<String> >(String*, String*, String*, std::allocator<String>&) [16]
+                0.00    0.15  169894/239870      void __gnu_cxx::__alloc_traits<std::allocator<String> >::construct<String>(std::allocator<String>&, String*, String const&) [19]
+                0.00    0.00  169894/239846      void std::_Destroy<String*, String>(String*, String*, std::allocator<String>&) [48]
+                0.00    0.00  509682/579635      std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() [68]
+                0.00    0.00  339788/679576      __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::base() const [67]
+                0.00    0.00  169894/169894      std::vector<String, std::allocator<String> >::_M_check_len(unsigned long, char const*) const [83]
+                0.00    0.00  169894/169894      std::vector<String, std::allocator<String> >::begin() [85]
+                0.00    0.00  169894/169894      __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::difference_type __gnu_cxx::operator-<String*, std::vector<String, std::allocator<String> > >(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&, __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&) [82]
+                0.00    0.00  169894/169895      std::_Vector_base<String, std::allocator<String> >::_M_allocate(unsigned long) [81]
+                0.00    0.00  169894/239846      std::_Vector_base<String, std::allocator<String> >::_M_deallocate(String*, unsigned long) [76]
+-----------------------------------------------
+                0.25    0.00 2644560/2644560     String::operator+(String const&) const [5]
+[11]    10.6    0.25    0.00 2644560         String::String(int, char const*) [11]
+-----------------------------------------------
+                0.00    0.25    9992/9992        LogEntry::LogEntry(String) [3]
+[12]    10.5    0.00    0.25    9992         Time::Time(String) [12]
+                0.01    0.21    9992/69951       String::split(char) const [4]
+                0.03    0.00   29976/838959      String::String(String const&) [7]
+                0.00    0.00   29976/10382507     String::length() const [6]
+                0.00    0.00   29976/6727848     String::~String() [35]
+                0.00    0.00    9992/69952       std::vector<String, std::allocator<String> >::~vector() [50]
+                0.00    0.00   59952/234671      std::vector<String, std::allocator<String> >::operator[](unsigned long) [77]
+                0.00    0.00   29976/47389       stoi(String, int) [97]
+-----------------------------------------------
+                0.03    0.21  339788/339788      String* std::uninitialized_copy<String*, String*>(String*, String*, String*) [14]
+[13]    10.3    0.03    0.21  339788         String* std::__uninitialized_copy<false>::__uninit_copy<String*, String*>(String*, String*, String*) [13]
+                0.00    0.21  239873/239876      void std::_Construct<String, String>(String*, String const&) [17]
+                0.00    0.00  239873/719622      String* std::__addressof<String>(String&) [65]
+-----------------------------------------------
+                0.00    0.24  339788/339788      String* std::__uninitialized_copy_a<String*, String*, String>(String*, String*, String*, std::allocator<String>&) [15]
+[14]    10.3    0.00    0.24  339788         String* std::uninitialized_copy<String*, String*>(String*, String*, String*) [14]
+                0.03    0.21  339788/339788      String* std::__uninitialized_copy<false>::__uninit_copy<String*, String*>(String*, String*, String*) [13]
+-----------------------------------------------
+                0.00    0.24  339788/339788      String* std::__uninitialized_move_if_noexcept_a<String*, String*, std::allocator<String> >(String*, String*, String*, std::allocator<String>&) [16]
+[15]    10.3    0.00    0.24  339788         String* std::__uninitialized_copy_a<String*, String*, String>(String*, String*, String*, std::allocator<String>&) [15]
+                0.00    0.24  339788/339788      String* std::uninitialized_copy<String*, String*>(String*, String*, String*) [14]
+-----------------------------------------------
+                0.00    0.24  339788/339788      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[16]    10.3    0.00    0.24  339788         String* std::__uninitialized_move_if_noexcept_a<String*, String*, std::allocator<String> >(String*, String*, String*, std::allocator<String>&) [16]
+                0.00    0.24  339788/339788      String* std::__uninitialized_copy_a<String*, String*, String>(String*, String*, String*, std::allocator<String>&) [15]
+-----------------------------------------------
+                0.00    0.00       3/239876      void std::__uninitialized_fill_n<false>::__uninit_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&) [52]
+                0.00    0.21  239873/239876      String* std::__uninitialized_copy<false>::__uninit_copy<String*, String*>(String*, String*, String*) [13]
+[17]     9.0    0.00    0.21  239876         void std::_Construct<String, String>(String*, String const&) [17]
+                0.21    0.00  239876/838959      String::String(String const&) [7]
+                0.00    0.00  239876/506128      operator new(unsigned long, void*) [70]
+-----------------------------------------------
+                0.00    0.21  239870/239870      void __gnu_cxx::__alloc_traits<std::allocator<String> >::construct<String>(std::allocator<String>&, String*, String const&) [19]
+[18]     9.0    0.00    0.21  239870         __gnu_cxx::new_allocator<String>::construct(String*, String const&) [18]
+                0.21    0.00  239870/838959      String::String(String const&) [7]
+                0.00    0.00  239870/506128      operator new(unsigned long, void*) [70]
+-----------------------------------------------
+                0.00    0.06   69976/239870      std::vector<String, std::allocator<String> >::push_back(String const&) [9]
+                0.00    0.15  169894/239870      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[19]     9.0    0.00    0.21  239870         void __gnu_cxx::__alloc_traits<std::allocator<String> >::construct<String>(std::allocator<String>&, String*, String const&) [19]
+                0.00    0.21  239870/239870      __gnu_cxx::new_allocator<String>::construct(String*, String const&) [18]
+-----------------------------------------------
+                0.00    0.12    9999/9999        parse(std::istream&) [2]
+[20]     5.2    0.00    0.12    9999         std::vector<LogEntry, std::allocator<LogEntry> >::push_back(LogEntry const&) [20]
+                0.00    0.08      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+                0.00    0.04    9984/9999        void __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::construct<LogEntry>(std::allocator<LogEntry>&, LogEntry*, LogEntry const&) [32]
+                0.00    0.00      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::end() [117]
+-----------------------------------------------
+                0.00    0.04    9999/26382       __gnu_cxx::new_allocator<LogEntry>::construct(LogEntry*, LogEntry const&) [31]
+                0.00    0.07   16383/26382       void std::_Construct<LogEntry, LogEntry>(LogEntry*, LogEntry const&) [23]
+[21]     5.0    0.00    0.12   26382         LogEntry::LogEntry(LogEntry const&) [21]
+                0.07    0.00   79146/838959      String::String(String const&) [7]
+                0.00    0.05   26382/26382       Date::Date(Date const&) [29]
+-----------------------------------------------
+                0.00    0.08      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::push_back(LogEntry const&) [20]
+[22]     3.3    0.00    0.08      15         std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+                0.00    0.07      30/30          LogEntry* std::__uninitialized_move_if_noexcept_a<LogEntry*, LogEntry*, std::allocator<LogEntry> >(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&) [27]
+                0.00    0.01      15/16          void std::_Destroy<LogEntry*, LogEntry>(LogEntry*, LogEntry*, std::allocator<LogEntry>&) [44]
+                0.00    0.00      15/9999        void __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::construct<LogEntry>(std::allocator<LogEntry>&, LogEntry*, LogEntry const&) [32]
+                0.00    0.00      45/46          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator() [105]
+                0.00    0.00      30/60          __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::base() const [104]
+                0.00    0.00      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::_M_check_len(unsigned long, char const*) const [115]
+                0.00    0.00      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::begin() [118]
+                0.00    0.00      15/15          __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::difference_type __gnu_cxx::operator-<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&, __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&) [114]
+                0.00    0.00      15/15          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_allocate(unsigned long) [116]
+                0.00    0.00      15/16          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_deallocate(LogEntry*, unsigned long) [111]
+-----------------------------------------------
+                0.00    0.07   16383/16383       LogEntry* std::__uninitialized_copy<false>::__uninit_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*) [24]
+[23]     3.1    0.00    0.07   16383         void std::_Construct<LogEntry, LogEntry>(LogEntry*, LogEntry const&) [23]
+                0.00    0.07   16383/26382       LogEntry::LogEntry(LogEntry const&) [21]
+                0.00    0.00   16383/506128      operator new(unsigned long, void*) [70]
+-----------------------------------------------
+                0.00    0.07      30/30          LogEntry* std::uninitialized_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*) [25]
+[24]     3.1    0.00    0.07      30         LogEntry* std::__uninitialized_copy<false>::__uninit_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*) [24]
+                0.00    0.07   16383/16383       void std::_Construct<LogEntry, LogEntry>(LogEntry*, LogEntry const&) [23]
+                0.00    0.00   16383/42765       LogEntry* std::__addressof<LogEntry>(LogEntry&) [98]
+-----------------------------------------------
+                0.00    0.07      30/30          LogEntry* std::__uninitialized_copy_a<LogEntry*, LogEntry*, LogEntry>(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&) [26]
+[25]     3.1    0.00    0.07      30         LogEntry* std::uninitialized_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*) [25]
+                0.00    0.07      30/30          LogEntry* std::__uninitialized_copy<false>::__uninit_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*) [24]
+-----------------------------------------------
+                0.00    0.07      30/30          LogEntry* std::__uninitialized_move_if_noexcept_a<LogEntry*, LogEntry*, std::allocator<LogEntry> >(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&) [27]
+[26]     3.1    0.00    0.07      30         LogEntry* std::__uninitialized_copy_a<LogEntry*, LogEntry*, LogEntry>(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&) [26]
+                0.00    0.07      30/30          LogEntry* std::uninitialized_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*) [25]
+-----------------------------------------------
+                0.00    0.07      30/30          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+[27]     3.1    0.00    0.07      30         LogEntry* std::__uninitialized_move_if_noexcept_a<LogEntry*, LogEntry*, std::allocator<LogEntry> >(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&) [27]
+                0.00    0.07      30/30          LogEntry* std::__uninitialized_copy_a<LogEntry*, LogEntry*, LogEntry>(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&) [26]
+-----------------------------------------------
+                0.01    0.06   69951/69951       String::split(char) const [4]
+[28]     2.9    0.01    0.06   69951         String::findchar(char const&) const [28]
+                0.06    0.00  544399/10382507     String::length() const [6]
+-----------------------------------------------
+                0.00    0.05   26382/26382       LogEntry::LogEntry(LogEntry const&) [21]
+[29]     2.0    0.00    0.05   26382         Date::Date(Date const&) [29]
+                0.05    0.00   52764/838959      String::String(String const&) [7]
+-----------------------------------------------
+                0.00    0.04    9999/9999        parse(std::istream&) [2]
+[30]     1.9    0.00    0.04    9999         LogEntry::operator=(LogEntry const&) [30]
+                0.03    0.00   29997/838959      String::String(String const&) [7]
+                0.00    0.02    9999/19999       Date::operator=(Date const&) [33]
+                0.00    0.00   29997/2934500     String::operator=(String) [37]
+                0.00    0.00   29997/6727848     String::~String() [35]
+-----------------------------------------------
+                0.00    0.04    9999/9999        void __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::construct<LogEntry>(std::allocator<LogEntry>&, LogEntry*, LogEntry const&) [32]
+[31]     1.9    0.00    0.04    9999         __gnu_cxx::new_allocator<LogEntry>::construct(LogEntry*, LogEntry const&) [31]
+                0.00    0.04    9999/26382       LogEntry::LogEntry(LogEntry const&) [21]
+                0.00    0.00    9999/506128      operator new(unsigned long, void*) [70]
+-----------------------------------------------
+                0.00    0.00      15/9999        std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+                0.00    0.04    9984/9999        std::vector<LogEntry, std::allocator<LogEntry> >::push_back(LogEntry const&) [20]
+[32]     1.9    0.00    0.04    9999         void __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::construct<LogEntry>(std::allocator<LogEntry>&, LogEntry*, LogEntry const&) [32]
+                0.00    0.04    9999/9999        __gnu_cxx::new_allocator<LogEntry>::construct(LogEntry*, LogEntry const&) [31]
+-----------------------------------------------
+                0.00    0.00       1/19999       LogEntry::LogEntry() [57]
+                0.00    0.02    9999/19999       LogEntry::LogEntry(String) [3]
+                0.00    0.02    9999/19999       LogEntry::operator=(LogEntry const&) [30]
+[33]     1.5    0.00    0.04   19999         Date::operator=(Date const&) [33]
+                0.04    0.00   39998/838959      String::String(String const&) [7]
+                0.00    0.00   39998/2934500     String::operator=(String) [37]
+                0.00    0.00   39998/6727848     String::~String() [35]
+-----------------------------------------------
+                0.00    0.00    9992/2874438     LogEntry::LogEntry(String) [3]
+                0.01    0.00 1007483/2874438     parse(std::istream&) [2]
+                0.02    0.00 1856963/2874438     String::split(char) const [4]
+[34]     1.3    0.03    0.00 2874438         String::String(char) [34]
+-----------------------------------------------
+                0.00    0.00       3/6727848     LogEntry::LogEntry() [57]
+                0.00    0.00       5/6727848     main [1]
+                0.00    0.00   20016/6727848     Date::Date() [49]
+                0.00    0.00   29976/6727848     Time::Time(String) [12]
+                0.00    0.00   29997/6727848     LogEntry::operator=(LogEntry const&) [30]
+                0.00    0.00   39998/6727848     Date::operator=(Date const&) [33]
+                0.00    0.00   49960/6727848     Date::Date(String) [8]
+                0.00    0.00   92764/6727848     Date::~Date() [36]
+                0.00    0.00  109146/6727848     LogEntry::~LogEntry() [40]
+                0.00    0.00  147330/6727848     LogEntry::LogEntry(String) [3]
+                0.00    0.00  479746/6727848     void std::_Destroy<String>(String*) [45]
+                0.01    0.00 2034965/6727848     parse(std::istream&) [2]
+                0.01    0.00 3693942/6727848     String::split(char) const [4]
+[35]     0.9    0.02    0.00 6727848         String::~String() [35]
+-----------------------------------------------
+                0.00    0.00       1/46382       LogEntry::LogEntry() [57]
+                0.00    0.00    9999/46382       LogEntry::LogEntry(String) [3]
+                0.01    0.00   36382/46382       LogEntry::~LogEntry() [40]
+[36]     0.4    0.01    0.00   46382         Date::~Date() [36]
+                0.00    0.00   92764/6727848     String::~String() [35]
+-----------------------------------------------
+                0.00    0.00       3/2934500     main [1]
+                0.00    0.00       3/2934500     LogEntry::LogEntry() [57]
+                0.00    0.00   19984/2934500     Date::Date(String) [8]
+                0.00    0.00   20016/2934500     Date::Date() [49]
+                0.00    0.00   29997/2934500     LogEntry::operator=(LogEntry const&) [30]
+                0.00    0.00   39989/2934500     LogEntry::LogEntry(String) [3]
+                0.00    0.00   39998/2934500     Date::operator=(Date const&) [33]
+                0.00    0.00 1017482/2934500     parse(std::istream&) [2]
+                0.01    0.00 1767028/2934500     String::split(char) const [4]
+[37]     0.4    0.01    0.00 2934500         String::operator=(String) [37]
+                0.00    0.00 2934500/2934500     String::swap(String&) [64]
+-----------------------------------------------
+                0.01    0.00  269846/269846      String::split(char) const [4]
+[38]     0.4    0.01    0.00  269846         operator!=(String const&, String const&) [38]
+                0.00    0.00  269846/279840      String::operator==(String const&) const [75]
+-----------------------------------------------
+                0.00    0.00       3/229938      LogEntry::LogEntry() [57]
+                0.00    0.00       4/229938      main [1]
+                0.00    0.00    9999/229938      parse(std::istream&) [2]
+                0.00    0.00   20005/229938      LogEntry::LogEntry(String) [3]
+                0.00    0.00   20016/229938      Date::Date() [49]
+                0.01    0.00  179911/229938      String::split(char) const [4]
+[39]     0.4    0.01    0.00  229938         String::String(char const*) [39]
+                0.00    0.00   20001/20001       String::capacity() const [99]
+-----------------------------------------------
+                0.00    0.00   10000/36382       parse(std::istream&) [2]
+                0.00    0.01   26382/36382       void std::_Destroy<LogEntry>(LogEntry*) [41]
+[40]     0.4    0.00    0.01   36382         LogEntry::~LogEntry() [40]
+                0.01    0.00   36382/46382       Date::~Date() [36]
+                0.00    0.00  109146/6727848     String::~String() [35]
+-----------------------------------------------
+                0.00    0.01   26382/26382       void std::_Destroy_aux<false>::__destroy<LogEntry*>(LogEntry*, LogEntry*) [42]
+[41]     0.3    0.00    0.01   26382         void std::_Destroy<LogEntry>(LogEntry*) [41]
+                0.00    0.01   26382/36382       LogEntry::~LogEntry() [40]
+-----------------------------------------------
+                0.00    0.01      16/16          void std::_Destroy<LogEntry*>(LogEntry*, LogEntry*) [43]
+[42]     0.3    0.00    0.01      16         void std::_Destroy_aux<false>::__destroy<LogEntry*>(LogEntry*, LogEntry*) [42]
+                0.00    0.01   26382/26382       void std::_Destroy<LogEntry>(LogEntry*) [41]
+                0.00    0.00   26382/42765       LogEntry* std::__addressof<LogEntry>(LogEntry&) [98]
+-----------------------------------------------
+                0.00    0.01      16/16          void std::_Destroy<LogEntry*, LogEntry>(LogEntry*, LogEntry*, std::allocator<LogEntry>&) [44]
+[43]     0.3    0.00    0.01      16         void std::_Destroy<LogEntry*>(LogEntry*, LogEntry*) [43]
+                0.00    0.01      16/16          void std::_Destroy_aux<false>::__destroy<LogEntry*>(LogEntry*, LogEntry*) [42]
+-----------------------------------------------
+                0.00    0.00       1/16          std::vector<LogEntry, std::allocator<LogEntry> >::~vector() [51]
+                0.00    0.01      15/16          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+[44]     0.3    0.00    0.01      16         void std::_Destroy<LogEntry*, LogEntry>(LogEntry*, LogEntry*, std::allocator<LogEntry>&) [44]
+                0.00    0.01      16/16          void std::_Destroy<LogEntry*>(LogEntry*, LogEntry*) [43]
+-----------------------------------------------
+                0.00    0.00  479746/479746      void std::_Destroy_aux<false>::__destroy<String*>(String*, String*) [46]
+[45]     0.1    0.00    0.00  479746         void std::_Destroy<String>(String*) [45]
+                0.00    0.00  479746/6727848     String::~String() [35]
+-----------------------------------------------
+                0.00    0.00  239846/239846      void std::_Destroy<String*>(String*, String*) [47]
+[46]     0.1    0.00    0.00  239846         void std::_Destroy_aux<false>::__destroy<String*>(String*, String*) [46]
+                0.00    0.00  479746/479746      void std::_Destroy<String>(String*) [45]
+                0.00    0.00  479746/719622      String* std::__addressof<String>(String&) [65]
+-----------------------------------------------
+                0.00    0.00  239846/239846      void std::_Destroy<String*, String>(String*, String*, std::allocator<String>&) [48]
+[47]     0.1    0.00    0.00  239846         void std::_Destroy<String*>(String*, String*) [47]
+                0.00    0.00  239846/239846      void std::_Destroy_aux<false>::__destroy<String*>(String*, String*) [46]
+-----------------------------------------------
+                0.00    0.00   69952/239846      std::vector<String, std::allocator<String> >::~vector() [50]
+                0.00    0.00  169894/239846      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[48]     0.1    0.00    0.00  239846         void std::_Destroy<String*, String>(String*, String*, std::allocator<String>&) [48]
+                0.00    0.00  239846/239846      void std::_Destroy<String*>(String*, String*) [47]
+-----------------------------------------------
+                0.00    0.00       2/10008       LogEntry::LogEntry() [57]
+                0.00    0.00   10006/10008       LogEntry::LogEntry(String) [3]
+[49]     0.0    0.00    0.00   10008         Date::Date() [49]
+                0.00    0.00   20016/229938      String::String(char const*) [39]
+                0.00    0.00   20016/2934500     String::operator=(String) [37]
+                0.00    0.00   20016/6727848     String::~String() [35]
+                0.00    0.00   20016/139953      String::String() [86]
+-----------------------------------------------
+                0.00    0.00       1/69952       main [1]
+                0.00    0.00    9992/69952       Time::Time(String) [12]
+                0.00    0.00   29976/69952       Date::Date(String) [8]
+                0.00    0.00   29983/69952       LogEntry::LogEntry(String) [3]
+[50]     0.0    0.00    0.00   69952         std::vector<String, std::allocator<String> >::~vector() [50]
+                0.00    0.00   69952/239846      void std::_Destroy<String*, String>(String*, String*, std::allocator<String>&) [48]
+                0.00    0.00   69952/579635      std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() [68]
+                0.00    0.00   69952/69952       std::_Vector_base<String, std::allocator<String> >::~_Vector_base() [93]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[51]     0.0    0.00    0.00       1         std::vector<LogEntry, std::allocator<LogEntry> >::~vector() [51]
+                0.00    0.00       1/16          void std::_Destroy<LogEntry*, LogEntry>(LogEntry*, LogEntry*, std::allocator<LogEntry>&) [44]
+                0.00    0.00       1/46          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator() [105]
+                0.00    0.00       1/1           std::_Vector_base<LogEntry, std::allocator<LogEntry> >::~_Vector_base() [138]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::uninitialized_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&) [55]
+[52]     0.0    0.00    0.00       1         void std::__uninitialized_fill_n<false>::__uninit_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&) [52]
+                0.00    0.00       3/239876      void std::_Construct<String, String>(String*, String const&) [17]
+                0.00    0.00       3/719622      String* std::__addressof<String>(String&) [65]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<String, std::allocator<String> >::vector(unsigned long, String const&, std::allocator<String> const&) [54]
+[53]     0.0    0.00    0.00       1         std::vector<String, std::allocator<String> >::_M_fill_initialize(unsigned long, String const&) [53]
+                0.00    0.00       1/1           void std::__uninitialized_fill_n_a<String*, unsigned long, String, String>(String*, unsigned long, String const&, std::allocator<String>&) [56]
+                0.00    0.00       1/579635      std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() [68]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[54]     0.0    0.00    0.00       1         std::vector<String, std::allocator<String> >::vector(unsigned long, String const&, std::allocator<String> const&) [54]
+                0.00    0.00       1/1           std::vector<String, std::allocator<String> >::_M_fill_initialize(unsigned long, String const&) [53]
+                0.00    0.00       1/1           std::_Vector_base<String, std::allocator<String> >::_Vector_base(unsigned long, std::allocator<String> const&) [134]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::__uninitialized_fill_n_a<String*, unsigned long, String, String>(String*, unsigned long, String const&, std::allocator<String>&) [56]
+[55]     0.0    0.00    0.00       1         void std::uninitialized_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&) [55]
+                0.00    0.00       1/1           void std::__uninitialized_fill_n<false>::__uninit_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<String, std::allocator<String> >::_M_fill_initialize(unsigned long, String const&) [53]
+[56]     0.0    0.00    0.00       1         void std::__uninitialized_fill_n_a<String*, unsigned long, String, String>(String*, unsigned long, String const&, std::allocator<String>&) [56]
+                0.00    0.00       1/1           void std::uninitialized_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           parse(std::istream&) [2]
+[57]     0.0    0.00    0.00       1         LogEntry::LogEntry() [57]
+                0.00    0.00       1/19999       Date::operator=(Date const&) [33]
+                0.00    0.00       1/46382       Date::~Date() [36]
+                0.00    0.00       2/10008       Date::Date() [49]
+                0.00    0.00       3/229938      String::String(char const*) [39]
+                0.00    0.00       3/2934500     String::operator=(String) [37]
+                0.00    0.00       3/6727848     String::~String() [35]
+                0.00    0.00       3/139953      String::String() [86]
+                0.00    0.00       2/10008       Time::Time() [101]
+-----------------------------------------------
+                0.00    0.00 2934500/2934500     String::operator=(String) [37]
+[64]     0.0    0.00    0.00 2934500         String::swap(String&) [64]
+-----------------------------------------------
+                0.00    0.00       3/719622      void std::__uninitialized_fill_n<false>::__uninit_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&) [52]
+                0.00    0.00  239873/719622      String* std::__uninitialized_copy<false>::__uninit_copy<String*, String*>(String*, String*, String*) [13]
+                0.00    0.00  479746/719622      void std::_Destroy_aux<false>::__destroy<String*>(String*, String*) [46]
+[65]     0.0    0.00    0.00  719622         String* std::__addressof<String>(String&) [65]
+-----------------------------------------------
+                0.00    0.00    9999/689575      LogEntry::LogEntry(String) [3]
+                0.00    0.00  679576/689575      std::vector<String, std::allocator<String> >::_M_check_len(unsigned long, char const*) const [83]
+[66]     0.0    0.00    0.00  689575         std::vector<String, std::allocator<String> >::size() const [66]
+-----------------------------------------------
+                0.00    0.00  339788/679576      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+                0.00    0.00  339788/679576      __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::difference_type __gnu_cxx::operator-<String*, std::vector<String, std::allocator<String> > >(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&, __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&) [82]
+[67]     0.0    0.00    0.00  679576         __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::base() const [67]
+-----------------------------------------------
+                0.00    0.00       1/579635      std::vector<String, std::allocator<String> >::_M_fill_initialize(unsigned long, String const&) [53]
+                0.00    0.00   69952/579635      std::vector<String, std::allocator<String> >::~vector() [50]
+                0.00    0.00  509682/579635      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[68]     0.0    0.00    0.00  579635         std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() [68]
+-----------------------------------------------
+                0.00    0.00  169895/509683      __gnu_cxx::new_allocator<String>::allocate(unsigned long, void const*) [80]
+                0.00    0.00  339788/509683      __gnu_cxx::__alloc_traits<std::allocator<String> >::max_size(std::allocator<String> const&) [71]
+[69]     0.0    0.00    0.00  509683         __gnu_cxx::new_allocator<String>::max_size() const [69]
+-----------------------------------------------
+                0.00    0.00    9999/506128      __gnu_cxx::new_allocator<LogEntry>::construct(LogEntry*, LogEntry const&) [31]
+                0.00    0.00   16383/506128      void std::_Construct<LogEntry, LogEntry>(LogEntry*, LogEntry const&) [23]
+                0.00    0.00  239870/506128      __gnu_cxx::new_allocator<String>::construct(String*, String const&) [18]
+                0.00    0.00  239876/506128      void std::_Construct<String, String>(String*, String const&) [17]
+[70]     0.0    0.00    0.00  506128         operator new(unsigned long, void*) [70]
+-----------------------------------------------
+                0.00    0.00  339788/339788      std::vector<String, std::allocator<String> >::max_size() const [74]
+[71]     0.0    0.00    0.00  339788         __gnu_cxx::__alloc_traits<std::allocator<String> >::max_size(std::allocator<String> const&) [71]
+                0.00    0.00  339788/509683      __gnu_cxx::new_allocator<String>::max_size() const [69]
+-----------------------------------------------
+                0.00    0.00  169894/339788      std::vector<String, std::allocator<String> >::end() [84]
+                0.00    0.00  169894/339788      std::vector<String, std::allocator<String> >::begin() [85]
+[72]     0.0    0.00    0.00  339788         __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::__normal_iterator(String* const&) [72]
+-----------------------------------------------
+                0.00    0.00  339788/339788      std::vector<String, std::allocator<String> >::max_size() const [74]
+[73]     0.0    0.00    0.00  339788         std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() const [73]
+-----------------------------------------------
+                0.00    0.00  339788/339788      std::vector<String, std::allocator<String> >::_M_check_len(unsigned long, char const*) const [83]
+[74]     0.0    0.00    0.00  339788         std::vector<String, std::allocator<String> >::max_size() const [74]
+                0.00    0.00  339788/339788      std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() const [73]
+                0.00    0.00  339788/339788      __gnu_cxx::__alloc_traits<std::allocator<String> >::max_size(std::allocator<String> const&) [71]
+-----------------------------------------------
+                0.00    0.00       2/279840      main [1]
+                0.00    0.00    9992/279840      LogEntry::LogEntry(String) [3]
+                0.00    0.00  269846/279840      operator!=(String const&, String const&) [38]
+[75]     0.0    0.00    0.00  279840         String::operator==(String const&) const [75]
+-----------------------------------------------
+                0.00    0.00   69952/239846      std::_Vector_base<String, std::allocator<String> >::~_Vector_base() [93]
+                0.00    0.00  169894/239846      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[76]     0.0    0.00    0.00  239846         std::_Vector_base<String, std::allocator<String> >::_M_deallocate(String*, unsigned long) [76]
+                0.00    0.00  169895/169895      __gnu_cxx::new_allocator<String>::deallocate(String*, unsigned long) [79]
+-----------------------------------------------
+                0.00    0.00       5/234671      main [1]
+                0.00    0.00   59952/234671      Date::Date(String) [8]
+                0.00    0.00   59952/234671      Time::Time(String) [12]
+                0.00    0.00  114762/234671      LogEntry::LogEntry(String) [3]
+[77]     0.0    0.00    0.00  234671         std::vector<String, std::allocator<String> >::operator[](unsigned long) [77]
+-----------------------------------------------
+                0.00    0.00      15/169909      std::vector<LogEntry, std::allocator<LogEntry> >::_M_check_len(unsigned long, char const*) const [115]
+                0.00    0.00  169894/169909      std::vector<String, std::allocator<String> >::_M_check_len(unsigned long, char const*) const [83]
+[78]     0.0    0.00    0.00  169909         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [78]
+-----------------------------------------------
+                0.00    0.00  169895/169895      std::_Vector_base<String, std::allocator<String> >::_M_deallocate(String*, unsigned long) [76]
+[79]     0.0    0.00    0.00  169895         __gnu_cxx::new_allocator<String>::deallocate(String*, unsigned long) [79]
+-----------------------------------------------
+                0.00    0.00  169895/169895      std::_Vector_base<String, std::allocator<String> >::_M_allocate(unsigned long) [81]
+[80]     0.0    0.00    0.00  169895         __gnu_cxx::new_allocator<String>::allocate(unsigned long, void const*) [80]
+                0.00    0.00  169895/509683      __gnu_cxx::new_allocator<String>::max_size() const [69]
+-----------------------------------------------
+                0.00    0.00       1/169895      std::_Vector_base<String, std::allocator<String> >::_M_create_storage(unsigned long) [133]
+                0.00    0.00  169894/169895      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[81]     0.0    0.00    0.00  169895         std::_Vector_base<String, std::allocator<String> >::_M_allocate(unsigned long) [81]
+                0.00    0.00  169895/169895      __gnu_cxx::new_allocator<String>::allocate(unsigned long, void const*) [80]
+-----------------------------------------------
+                0.00    0.00  169894/169894      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[82]     0.0    0.00    0.00  169894         __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::difference_type __gnu_cxx::operator-<String*, std::vector<String, std::allocator<String> > >(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&, __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&) [82]
+                0.00    0.00  339788/679576      __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::base() const [67]
+-----------------------------------------------
+                0.00    0.00  169894/169894      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[83]     0.0    0.00    0.00  169894         std::vector<String, std::allocator<String> >::_M_check_len(unsigned long, char const*) const [83]
+                0.00    0.00  679576/689575      std::vector<String, std::allocator<String> >::size() const [66]
+                0.00    0.00  339788/339788      std::vector<String, std::allocator<String> >::max_size() const [74]
+                0.00    0.00  169894/169909      unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [78]
+-----------------------------------------------
+                0.00    0.00  169894/169894      std::vector<String, std::allocator<String> >::push_back(String const&) [9]
+[84]     0.0    0.00    0.00  169894         std::vector<String, std::allocator<String> >::end() [84]
+                0.00    0.00  169894/339788      __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::__normal_iterator(String* const&) [72]
+-----------------------------------------------
+                0.00    0.00  169894/169894      std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&) [10]
+[85]     0.0    0.00    0.00  169894         std::vector<String, std::allocator<String> >::begin() [85]
+                0.00    0.00  169894/339788      __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::__normal_iterator(String* const&) [72]
+-----------------------------------------------
+                0.00    0.00       1/139953      main [1]
+                0.00    0.00       1/139953      parse(std::istream&) [2]
+                0.00    0.00       3/139953      LogEntry::LogEntry() [57]
+                0.00    0.00   19984/139953      Date::Date(String) [8]
+                0.00    0.00   20016/139953      Date::Date() [49]
+                0.00    0.00   29997/139953      LogEntry::LogEntry(String) [3]
+                0.00    0.00   69951/139953      String::split(char) const [4]
+[86]     0.0    0.00    0.00  139953         String::String() [86]
+-----------------------------------------------
+                0.00    0.00  128610/128610      stoi(String, int) [97]
+[87]     0.0    0.00    0.00  128610         String::operator[](int) [87]
+-----------------------------------------------
+                0.00    0.00   69953/69953       std::allocator<String>::~allocator() [89]
+[88]     0.0    0.00    0.00   69953         __gnu_cxx::new_allocator<String>::~new_allocator() [88]
+-----------------------------------------------
+                0.00    0.00       1/69953       main [1]
+                0.00    0.00   69952/69953       std::_Vector_base<String, std::allocator<String> >::_Vector_impl::~_Vector_impl() [92]
+[89]     0.0    0.00    0.00   69953         std::allocator<String>::~allocator() [89]
+                0.00    0.00   69953/69953       __gnu_cxx::new_allocator<String>::~new_allocator() [88]
+-----------------------------------------------
+                0.00    0.00   69952/69952       std::allocator<String>::allocator() [91]
+[90]     0.0    0.00    0.00   69952         __gnu_cxx::new_allocator<String>::new_allocator() [90]
+-----------------------------------------------
+                0.00    0.00       1/69952       main [1]
+                0.00    0.00   69951/69952       std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl() [94]
+[91]     0.0    0.00    0.00   69952         std::allocator<String>::allocator() [91]
+                0.00    0.00   69952/69952       __gnu_cxx::new_allocator<String>::new_allocator() [90]
+-----------------------------------------------
+                0.00    0.00   69952/69952       std::_Vector_base<String, std::allocator<String> >::~_Vector_base() [93]
+[92]     0.0    0.00    0.00   69952         std::_Vector_base<String, std::allocator<String> >::_Vector_impl::~_Vector_impl() [92]
+                0.00    0.00   69952/69953       std::allocator<String>::~allocator() [89]
+-----------------------------------------------
+                0.00    0.00   69952/69952       std::vector<String, std::allocator<String> >::~vector() [50]
+[93]     0.0    0.00    0.00   69952         std::_Vector_base<String, std::allocator<String> >::~_Vector_base() [93]
+                0.00    0.00   69952/69952       std::_Vector_base<String, std::allocator<String> >::_Vector_impl::~_Vector_impl() [92]
+                0.00    0.00   69952/239846      std::_Vector_base<String, std::allocator<String> >::_M_deallocate(String*, unsigned long) [76]
+-----------------------------------------------
+                0.00    0.00   69951/69951       std::_Vector_base<String, std::allocator<String> >::_Vector_base() [95]
+[94]     0.0    0.00    0.00   69951         std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl() [94]
+                0.00    0.00   69951/69952       std::allocator<String>::allocator() [91]
+-----------------------------------------------
+                0.00    0.00   69951/69951       std::vector<String, std::allocator<String> >::vector() [96]
+[95]     0.0    0.00    0.00   69951         std::_Vector_base<String, std::allocator<String> >::_Vector_base() [95]
+                0.00    0.00   69951/69951       std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl() [94]
+-----------------------------------------------
+                0.00    0.00   69951/69951       String::split(char) const [4]
+[96]     0.0    0.00    0.00   69951         std::vector<String, std::allocator<String> >::vector() [96]
+                0.00    0.00   69951/69951       std::_Vector_base<String, std::allocator<String> >::_Vector_base() [95]
+-----------------------------------------------
+                0.00    0.00    7421/47389       LogEntry::LogEntry(String) [3]
+                0.00    0.00    9992/47389       Date::Date(String) [8]
+                0.00    0.00   29976/47389       Time::Time(String) [12]
+[97]     0.0    0.00    0.00   47389         stoi(String, int) [97]
+                0.00    0.00  128610/128610      String::operator[](int) [87]
+-----------------------------------------------
+                0.00    0.00   16383/42765       LogEntry* std::__uninitialized_copy<false>::__uninit_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*) [24]
+                0.00    0.00   26382/42765       void std::_Destroy_aux<false>::__destroy<LogEntry*>(LogEntry*, LogEntry*) [42]
+[98]     0.0    0.00    0.00   42765         LogEntry* std::__addressof<LogEntry>(LogEntry&) [98]
+-----------------------------------------------
+                0.00    0.00   20001/20001       String::String(char const*) [39]
+[99]     0.0    0.00    0.00   20001         String::capacity() const [99]
+-----------------------------------------------
+                0.00    0.00      60/10060       std::vector<LogEntry, std::allocator<LogEntry> >::_M_check_len(unsigned long, char const*) const [115]
+                0.00    0.00   10000/10060       byte_count(std::vector<LogEntry, std::allocator<LogEntry> > const&) [122]
+[100]    0.0    0.00    0.00   10060         std::vector<LogEntry, std::allocator<LogEntry> >::size() const [100]
+-----------------------------------------------
+                0.00    0.00       2/10008       LogEntry::LogEntry() [57]
+                0.00    0.00   10006/10008       LogEntry::LogEntry(String) [3]
+[101]    0.0    0.00    0.00   10008         Time::Time() [101]
+-----------------------------------------------
+                0.00    0.00    9999/9999        byte_count(std::vector<LogEntry, std::allocator<LogEntry> > const&) [122]
+[102]    0.0    0.00    0.00    9999         LogEntry::getBytes() const [102]
+-----------------------------------------------
+                0.00    0.00    9999/9999        byte_count(std::vector<LogEntry, std::allocator<LogEntry> > const&) [122]
+[103]    0.0    0.00    0.00    9999         std::vector<LogEntry, std::allocator<LogEntry> >::operator[](unsigned long) const [103]
+-----------------------------------------------
+                0.00    0.00      30/60          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+                0.00    0.00      30/60          __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::difference_type __gnu_cxx::operator-<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&, __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&) [114]
+[104]    0.0    0.00    0.00      60         __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::base() const [104]
+-----------------------------------------------
+                0.00    0.00       1/46          std::vector<LogEntry, std::allocator<LogEntry> >::~vector() [51]
+                0.00    0.00      45/46          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+[105]    0.0    0.00    0.00      46         std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator() [105]
+-----------------------------------------------
+                0.00    0.00      15/45          __gnu_cxx::new_allocator<LogEntry>::allocate(unsigned long, void const*) [113]
+                0.00    0.00      30/45          __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::max_size(std::allocator<LogEntry> const&) [107]
+[106]    0.0    0.00    0.00      45         __gnu_cxx::new_allocator<LogEntry>::max_size() const [106]
+-----------------------------------------------
+                0.00    0.00      30/30          std::vector<LogEntry, std::allocator<LogEntry> >::max_size() const [110]
+[107]    0.0    0.00    0.00      30         __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::max_size(std::allocator<LogEntry> const&) [107]
+                0.00    0.00      30/45          __gnu_cxx::new_allocator<LogEntry>::max_size() const [106]
+-----------------------------------------------
+                0.00    0.00      15/30          std::vector<LogEntry, std::allocator<LogEntry> >::end() [117]
+                0.00    0.00      15/30          std::vector<LogEntry, std::allocator<LogEntry> >::begin() [118]
+[108]    0.0    0.00    0.00      30         __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::__normal_iterator(LogEntry* const&) [108]
+-----------------------------------------------
+                0.00    0.00      30/30          std::vector<LogEntry, std::allocator<LogEntry> >::max_size() const [110]
+[109]    0.0    0.00    0.00      30         std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator() const [109]
+-----------------------------------------------
+                0.00    0.00      30/30          std::vector<LogEntry, std::allocator<LogEntry> >::_M_check_len(unsigned long, char const*) const [115]
+[110]    0.0    0.00    0.00      30         std::vector<LogEntry, std::allocator<LogEntry> >::max_size() const [110]
+                0.00    0.00      30/30          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator() const [109]
+                0.00    0.00      30/30          __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::max_size(std::allocator<LogEntry> const&) [107]
+-----------------------------------------------
+                0.00    0.00       1/16          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::~_Vector_base() [138]
+                0.00    0.00      15/16          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+[111]    0.0    0.00    0.00      16         std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_deallocate(LogEntry*, unsigned long) [111]
+                0.00    0.00      15/15          __gnu_cxx::new_allocator<LogEntry>::deallocate(LogEntry*, unsigned long) [112]
+-----------------------------------------------
+                0.00    0.00      15/15          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_deallocate(LogEntry*, unsigned long) [111]
+[112]    0.0    0.00    0.00      15         __gnu_cxx::new_allocator<LogEntry>::deallocate(LogEntry*, unsigned long) [112]
+-----------------------------------------------
+                0.00    0.00      15/15          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_allocate(unsigned long) [116]
+[113]    0.0    0.00    0.00      15         __gnu_cxx::new_allocator<LogEntry>::allocate(unsigned long, void const*) [113]
+                0.00    0.00      15/45          __gnu_cxx::new_allocator<LogEntry>::max_size() const [106]
+-----------------------------------------------
+                0.00    0.00      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+[114]    0.0    0.00    0.00      15         __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::difference_type __gnu_cxx::operator-<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&, __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&) [114]
+                0.00    0.00      30/60          __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::base() const [104]
+-----------------------------------------------
+                0.00    0.00      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+[115]    0.0    0.00    0.00      15         std::vector<LogEntry, std::allocator<LogEntry> >::_M_check_len(unsigned long, char const*) const [115]
+                0.00    0.00      60/10060       std::vector<LogEntry, std::allocator<LogEntry> >::size() const [100]
+                0.00    0.00      30/30          std::vector<LogEntry, std::allocator<LogEntry> >::max_size() const [110]
+                0.00    0.00      15/169909      unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [78]
+-----------------------------------------------
+                0.00    0.00      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+[116]    0.0    0.00    0.00      15         std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_allocate(unsigned long) [116]
+                0.00    0.00      15/15          __gnu_cxx::new_allocator<LogEntry>::allocate(unsigned long, void const*) [113]
+-----------------------------------------------
+                0.00    0.00      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::push_back(LogEntry const&) [20]
+[117]    0.0    0.00    0.00      15         std::vector<LogEntry, std::allocator<LogEntry> >::end() [117]
+                0.00    0.00      15/30          __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::__normal_iterator(LogEntry* const&) [108]
+-----------------------------------------------
+                0.00    0.00      15/15          std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&) [22]
+[118]    0.0    0.00    0.00      15         std::vector<LogEntry, std::allocator<LogEntry> >::begin() [118]
+                0.00    0.00      15/30          __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::__normal_iterator(LogEntry* const&) [108]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [196]
+[119]    0.0    0.00    0.00       1         _GLOBAL__sub_I__Z4stoi6Stringi [119]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [125]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [196]
+[120]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN6StringC2Ev [120]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [124]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [196]
+[121]    0.0    0.00    0.00       1         _GLOBAL__sub_I_main [121]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [123]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[122]    0.0    0.00    0.00       1         byte_count(std::vector<LogEntry, std::allocator<LogEntry> > const&) [122]
+                0.00    0.00   10000/10060       std::vector<LogEntry, std::allocator<LogEntry> >::size() const [100]
+                0.00    0.00    9999/9999        LogEntry::getBytes() const [102]
+                0.00    0.00    9999/9999        std::vector<LogEntry, std::allocator<LogEntry> >::operator[](unsigned long) const [103]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [121]
+[123]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [123]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN6StringC2Ev [120]
+[124]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [124]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__Z4stoi6Stringi [119]
+[125]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [125]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<String>::allocator(std::allocator<String> const&) [129]
+[126]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<String>::new_allocator(__gnu_cxx::new_allocator<String> const&) [126]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<LogEntry>::allocator() [130]
+[127]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<LogEntry>::new_allocator() [127]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<LogEntry>::~allocator() [131]
+[128]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<LogEntry>::~new_allocator() [128]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl(std::allocator<String> const&) [132]
+[129]    0.0    0.00    0.00       1         std::allocator<String>::allocator(std::allocator<String> const&) [129]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<String>::new_allocator(__gnu_cxx::new_allocator<String> const&) [126]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::_Vector_impl() [135]
+[130]    0.0    0.00    0.00       1         std::allocator<LogEntry>::allocator() [130]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<LogEntry>::new_allocator() [127]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::~_Vector_impl() [136]
+[131]    0.0    0.00    0.00       1         std::allocator<LogEntry>::~allocator() [131]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<LogEntry>::~new_allocator() [128]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<String, std::allocator<String> >::_Vector_base(unsigned long, std::allocator<String> const&) [134]
+[132]    0.0    0.00    0.00       1         std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl(std::allocator<String> const&) [132]
+                0.00    0.00       1/1           std::allocator<String>::allocator(std::allocator<String> const&) [129]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<String, std::allocator<String> >::_Vector_base(unsigned long, std::allocator<String> const&) [134]
+[133]    0.0    0.00    0.00       1         std::_Vector_base<String, std::allocator<String> >::_M_create_storage(unsigned long) [133]
+                0.00    0.00       1/169895      std::_Vector_base<String, std::allocator<String> >::_M_allocate(unsigned long) [81]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<String, std::allocator<String> >::vector(unsigned long, String const&, std::allocator<String> const&) [54]
+[134]    0.0    0.00    0.00       1         std::_Vector_base<String, std::allocator<String> >::_Vector_base(unsigned long, std::allocator<String> const&) [134]
+                0.00    0.00       1/1           std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl(std::allocator<String> const&) [132]
+                0.00    0.00       1/1           std::_Vector_base<String, std::allocator<String> >::_M_create_storage(unsigned long) [133]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_base() [137]
+[135]    0.0    0.00    0.00       1         std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::_Vector_impl() [135]
+                0.00    0.00       1/1           std::allocator<LogEntry>::allocator() [130]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<LogEntry, std::allocator<LogEntry> >::~_Vector_base() [138]
+[136]    0.0    0.00    0.00       1         std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::~_Vector_impl() [136]
+                0.00    0.00       1/1           std::allocator<LogEntry>::~allocator() [131]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<LogEntry, std::allocator<LogEntry> >::vector() [139]
+[137]    0.0    0.00    0.00       1         std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_base() [137]
+                0.00    0.00       1/1           std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::_Vector_impl() [135]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<LogEntry, std::allocator<LogEntry> >::~vector() [51]
+[138]    0.0    0.00    0.00       1         std::_Vector_base<LogEntry, std::allocator<LogEntry> >::~_Vector_base() [138]
+                0.00    0.00       1/1           std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::~_Vector_impl() [136]
+                0.00    0.00       1/16          std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_deallocate(LogEntry*, unsigned long) [111]
+-----------------------------------------------
+                0.00    0.00       1/1           parse(std::istream&) [2]
+[139]    0.0    0.00    0.00       1         std::vector<LogEntry, std::allocator<LogEntry> >::vector() [139]
+                0.00    0.00       1/1           std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_base() [137]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [119] _GLOBAL__sub_I__Z4stoi6Stringi [32] void __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::construct<LogEntry>(std::allocator<LogEntry>&, LogEntry*, LogEntry const&) [136] std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::~_Vector_impl()
+ [120] _GLOBAL__sub_I__ZN6StringC2Ev [72] __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::__normal_iterator(String* const&) [111] std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_deallocate(LogEntry*, unsigned long)
+ [121] _GLOBAL__sub_I_main   [108] __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::__normal_iterator(LogEntry* const&) [105] std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator()
+ [122] byte_count(std::vector<LogEntry, std::allocator<LogEntry> > const&) [82] __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::difference_type __gnu_cxx::operator-<String*, std::vector<String, std::allocator<String> > >(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&, __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > > const&) [137] std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_base()
+ [123] __static_initialization_and_destruction_0(int, int) [114] __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::difference_type __gnu_cxx::operator-<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&, __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > > const&) [138] std::_Vector_base<LogEntry, std::allocator<LogEntry> >::~_Vector_base()
+ [124] __static_initialization_and_destruction_0(int, int) [4] String::split(char) const [13] String* std::__uninitialized_copy<false>::__uninit_copy<String*, String*>(String*, String*, String*)
+ [125] __static_initialization_and_destruction_0(int, int) [6] String::length() const [24] LogEntry* std::__uninitialized_copy<false>::__uninit_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*)
+  [97] stoi(String, int)      [99] String::capacity() const [52] void std::__uninitialized_fill_n<false>::__uninit_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&)
+   [2] parse(std::istream&)   [28] String::findchar(char const&) const [10] std::vector<String, std::allocator<String> >::_M_insert_aux(__gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >, String const&)
+  [29] Date::Date(Date const&) [75] String::operator==(String const&) const [53] std::vector<String, std::allocator<String> >::_M_fill_initialize(unsigned long, String const&)
+  [49] Date::Date()            [5] String::operator+(String const&) const [84] std::vector<String, std::allocator<String> >::end()
+   [8] Date::Date(String)    [102] LogEntry::getBytes() const [85] std::vector<String, std::allocator<String> >::begin()
+  [36] Date::~Date()          [69] __gnu_cxx::new_allocator<String>::max_size() const [9] std::vector<String, std::allocator<String> >::push_back(String const&)
+  [33] Date::operator=(Date const&) [106] __gnu_cxx::new_allocator<LogEntry>::max_size() const [96] std::vector<String, std::allocator<String> >::vector()
+  [12] Time::Time(String)     [67] __gnu_cxx::__normal_iterator<String*, std::vector<String, std::allocator<String> > >::base() const [54] std::vector<String, std::allocator<String> >::vector(unsigned long, String const&, std::allocator<String> const&)
+ [101] Time::Time()          [104] __gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >::base() const [50] std::vector<String, std::allocator<String> >::~vector()
+  [64] String::swap(String&)  [73] std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() const [77] std::vector<String, std::allocator<String> >::operator[](unsigned long)
+  [39] String::String(char const*) [109] std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_get_Tp_allocator() const [22] std::vector<LogEntry, std::allocator<LogEntry> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LogEntry*, std::vector<LogEntry, std::allocator<LogEntry> > >, LogEntry const&)
+  [34] String::String(char)   [83] std::vector<String, std::allocator<String> >::_M_check_len(unsigned long, char const*) const [117] std::vector<LogEntry, std::allocator<LogEntry> >::end()
+   [7] String::String(String const&) [66] std::vector<String, std::allocator<String> >::size() const [118] std::vector<LogEntry, std::allocator<LogEntry> >::begin()
+  [11] String::String(int, char const*) [74] std::vector<String, std::allocator<String> >::max_size() const [20] std::vector<LogEntry, std::allocator<LogEntry> >::push_back(LogEntry const&)
+  [86] String::String()      [115] std::vector<LogEntry, std::allocator<LogEntry> >::_M_check_len(unsigned long, char const*) const [139] std::vector<LogEntry, std::allocator<LogEntry> >::vector()
+  [35] String::~String()     [100] std::vector<LogEntry, std::allocator<LogEntry> >::size() const [51] std::vector<LogEntry, std::allocator<LogEntry> >::~vector()
+  [37] String::operator=(String) [110] std::vector<LogEntry, std::allocator<LogEntry> >::max_size() const [17] void std::_Construct<String, String>(String*, String const&)
+  [87] String::operator[](int) [103] std::vector<LogEntry, std::allocator<LogEntry> >::operator[](unsigned long) const [23] void std::_Construct<LogEntry, LogEntry>(LogEntry*, LogEntry const&)
+   [3] LogEntry::LogEntry(String) [129] std::allocator<String>::allocator(std::allocator<String> const&) [65] String* std::__addressof<String>(String&)
+  [57] LogEntry::LogEntry()   [91] std::allocator<String>::allocator() [98] LogEntry* std::__addressof<LogEntry>(LogEntry&)
+  [21] LogEntry::LogEntry(LogEntry const&) [89] std::allocator<String>::~allocator() [14] String* std::uninitialized_copy<String*, String*>(String*, String*, String*)
+  [40] LogEntry::~LogEntry() [130] std::allocator<LogEntry>::allocator() [25] LogEntry* std::uninitialized_copy<LogEntry*, LogEntry*>(LogEntry*, LogEntry*, LogEntry*)
+  [30] LogEntry::operator=(LogEntry const&) [131] std::allocator<LogEntry>::~allocator() [55] void std::uninitialized_fill_n<String*, unsigned long, String>(String*, unsigned long, String const&)
+  [79] __gnu_cxx::new_allocator<String>::deallocate(String*, unsigned long) [46] void std::_Destroy_aux<false>::__destroy<String*>(String*, String*) [15] String* std::__uninitialized_copy_a<String*, String*, String>(String*, String*, String*, std::allocator<String>&)
+  [80] __gnu_cxx::new_allocator<String>::allocate(unsigned long, void const*) [42] void std::_Destroy_aux<false>::__destroy<LogEntry*>(LogEntry*, LogEntry*) [26] LogEntry* std::__uninitialized_copy_a<LogEntry*, LogEntry*, LogEntry>(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&)
+  [18] __gnu_cxx::new_allocator<String>::construct(String*, String const&) [81] std::_Vector_base<String, std::allocator<String> >::_M_allocate(unsigned long) [56] void std::__uninitialized_fill_n_a<String*, unsigned long, String, String>(String*, unsigned long, String const&, std::allocator<String>&)
+ [126] __gnu_cxx::new_allocator<String>::new_allocator(__gnu_cxx::new_allocator<String> const&) [132] std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl(std::allocator<String> const&) [16] String* std::__uninitialized_move_if_noexcept_a<String*, String*, std::allocator<String> >(String*, String*, String*, std::allocator<String>&)
+  [90] __gnu_cxx::new_allocator<String>::new_allocator() [94] std::_Vector_base<String, std::allocator<String> >::_Vector_impl::_Vector_impl() [27] LogEntry* std::__uninitialized_move_if_noexcept_a<LogEntry*, LogEntry*, std::allocator<LogEntry> >(LogEntry*, LogEntry*, LogEntry*, std::allocator<LogEntry>&)
+  [88] __gnu_cxx::new_allocator<String>::~new_allocator() [92] std::_Vector_base<String, std::allocator<String> >::_Vector_impl::~_Vector_impl() [78] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+ [112] __gnu_cxx::new_allocator<LogEntry>::deallocate(LogEntry*, unsigned long) [76] std::_Vector_base<String, std::allocator<String> >::_M_deallocate(String*, unsigned long) [45] void std::_Destroy<String>(String*)
+ [113] __gnu_cxx::new_allocator<LogEntry>::allocate(unsigned long, void const*) [133] std::_Vector_base<String, std::allocator<String> >::_M_create_storage(unsigned long) [41] void std::_Destroy<LogEntry>(LogEntry*)
+  [31] __gnu_cxx::new_allocator<LogEntry>::construct(LogEntry*, LogEntry const&) [68] std::_Vector_base<String, std::allocator<String> >::_M_get_Tp_allocator() [47] void std::_Destroy<String*>(String*, String*)
+ [127] __gnu_cxx::new_allocator<LogEntry>::new_allocator() [134] std::_Vector_base<String, std::allocator<String> >::_Vector_base(unsigned long, std::allocator<String> const&) [48] void std::_Destroy<String*, String>(String*, String*, std::allocator<String>&)
+ [128] __gnu_cxx::new_allocator<LogEntry>::~new_allocator() [95] std::_Vector_base<String, std::allocator<String> >::_Vector_base() [43] void std::_Destroy<LogEntry*>(LogEntry*, LogEntry*)
+  [71] __gnu_cxx::__alloc_traits<std::allocator<String> >::max_size(std::allocator<String> const&) [93] std::_Vector_base<String, std::allocator<String> >::~_Vector_base() [44] void std::_Destroy<LogEntry*, LogEntry>(LogEntry*, LogEntry*, std::allocator<LogEntry>&)
+  [19] void __gnu_cxx::__alloc_traits<std::allocator<String> >::construct<String>(std::allocator<String>&, String*, String const&) [116] std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_M_allocate(unsigned long) [38] operator!=(String const&, String const&)
+ [107] __gnu_cxx::__alloc_traits<std::allocator<LogEntry> >::max_size(std::allocator<LogEntry> const&) [135] std::_Vector_base<LogEntry, std::allocator<LogEntry> >::_Vector_impl::_Vector_impl() [70] operator new(unsigned long, void*)
